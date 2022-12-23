@@ -163,7 +163,7 @@ If you are stuck somewhere and want to observe the deployment process in depth, 
 
 <p align="center"> 
     <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
-    <img src="images/masterPortfolioThemes.png"></img>
+    <img src="images/old-landing-page.png"></img>
   </a>
 </p>
 
