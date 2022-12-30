@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Kritagya Kumra Portfolio",
     type: "website",
-    url: "http://kritagyakumra.herokuapp.com/",
+    url: "https://beautiful-stroopwafel-1722a5.netlify.app/#/",
   },
 };
 
@@ -363,7 +363,7 @@ const certifications = {
       subtitle: "- Kirill Eremenko, Hadelin de Ponteves, Ligency I Team, Ligency Team",
       logo_path: "Udemy_logo.png",
       certificate_link:
-        "",
+        "https://www.udemy.com/certificate/UC-1d665a10-da56-4510-8f43-3a4e3a1095f8/",
       alt_name: "Machine Learning",
       color_code: "#E5AA70",
     },
