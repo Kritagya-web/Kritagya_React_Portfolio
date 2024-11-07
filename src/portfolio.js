@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Kritagya Kumra Portfolio",
     type: "website",
-    url: "https://beautiful-stroopwafel-1722a5.netlify.app/#/",
+    url: "http://kritagyakumra.herokuapp.com/",
   },
 };
 
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "KritagyaKumra",
   nickname: "Kritagya-web",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end to end products which develop sustainable anda scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1XvmOASqt3_poL8iRU6-jJWOTzHN1IUHn/view?usp=share_link",
   portfolio_repository:
@@ -332,7 +332,8 @@ const competitiveSites = {
       style: {
         color: "#F28C28",
       },
-      profileLink: "https://www.codingninjas.com/codestudio/profile/34a33414-da35-4b62-ab67-1507226c6539",
+      profileLink:
+        "https://www.codingninjas.com/codestudio/profile/34a33414-da35-4b62-ab67-1507226c6539",
     },
   ],
 };
@@ -353,17 +354,50 @@ const degrees = {
       ],
       website_link: "https://online.gndu.ac.in/",
     },
+    {
+      title: "California State University, Los Angeles",
+      subtitle: "Master's in Computer Science (MSCS)",
+      logo_path: "calstatela.png",
+      alt_name: "California State University, Los Angeles",
+      duration: "2023 - 2025",
+      descriptions: [
+        "⚡ I have studied advanced software engineering and computer science subjects like DS, Algorithms, Computer Networks, OS, Computer Network Security, Software Architecture, AI etc.",
+        "⚡ Apart from this, I have done courses on Machine Learning, Data Science, C/C++, Python, Java, AWS, Reactjs and Full Stack Development.",
+        "⚡ I have created projects in different fields to master the fundamentals of the respective domains and have tried to master the concepts through their basics.",
+        "⚡ I cleared AWS Cloud Practitioner recently and have explored more into the field of AI, Full Stack Web Development and Cloud Devops Roles",
+      ],
+      website_link: "https://www.calstatela.edu/",
+    },
   ],
 };
 
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning A-Z™: Python & R in Data Science [2022]",
-      subtitle: "- Kirill Eremenko, Hadelin de Ponteves, Ligency I Team, Ligency Team",
-      logo_path: "Udemy_logo.png",
+      title: "AWS Certified Cloud Practitioner",
+      subtitle: "AWS CCP",
+      logo_path: "aws_ccp_exam.png",
       certificate_link:
-        "https://www.udemy.com/certificate/UC-1d665a10-da56-4510-8f43-3a4e3a1095f8/",
+        "https://www.credly.com/badges/2f86b061-fff8-4d02-9f63-8de91cd3fb33/public_url",
+      alt_name: "AWS",
+      color_code: "#FFFFFF",
+    },
+    {
+      title:
+        "6 Months Internship Python for Data Science and Research Methodologies",
+      subtitle: "UI Educon",
+      logo_path: "uieducon.jpeg",
+      certificate_link:
+        "https://drive.google.com/file/d/1JcX7ul4ErPlomj8LI2EbA3sMi8-io7cw/view?usp=sharing",
+      alt_name: "Data Science",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Machine Learning A-Z™: Python & R in Data Science [2022]",
+      subtitle:
+        "- Kirill Eremenko, Hadelin de Ponteves, Ligency I Team, Ligency Team",
+      logo_path: "Udemy_logo.png",
+      certificate_link: "",
       alt_name: "Machine Learning",
       color_code: "#E5AA70",
     },
@@ -371,8 +405,7 @@ const certifications = {
       title: "Machine Learning & Deep Learning in Python & R",
       subtitle: "- Start-Tech Academy",
       logo_path: "Udemy_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "deeplearning.ai",
       color_code: "#EADDCA",
     },
@@ -478,13 +511,28 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
+      title: "Part Time",
+      experiences: [
+        {
+          title: "Junior Software Developer",
+          company: "Gannon University Institutional Review Board (GUIRB)",
+          company_url: "https://www.submitirb.com/",
+          logo_path: "KPMG-Logo.jpg",
+          duration: "Jan 2022 - July 2022",
+          location: "Gurugram,India",
+          description:
+            "KPMG in India is one of the leading providers of risk, financial and business advisory, tax and regulatory services, and internal audits. The Leadership Team is the principal governing body of KPMG's operations in India. During my internship, I was part of 3 different projects in which I contributed in the field of UI-UX Design, Data Analytics, and Frond-end and Back-end respectively.",
+          color: "#0071C5",
+        },
+      ],
+    },
+    {
       title: "Internships",
       experiences: [
         {
           title: "KPMG Intern",
           company: "KPMG Assurance and Consulting Services LLP.",
-          company_url:
-            "https://home.kpmg/in/en/home.html",
+          company_url: "https://home.kpmg/in/en/home.html",
           logo_path: "KPMG-Logo.jpg",
           duration: "Jan 2022 - July 2022",
           location: "Gurugram,India",
@@ -520,7 +568,8 @@ const experience = {
           color: "#D83B01",
         },
         {
-          title: "Audit-Automation Tool (Initiative Built for the KPMG network)",
+          title:
+            "Audit-Automation Tool (Initiative Built for the KPMG network)",
           company: "KPMG Internal Project",
           company_url: "https://home.kpmg/in/en/home.html",
           logo_path: "KPMG-Logo.jpg",
@@ -562,8 +611,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "61, Hukam Singh Road, Shivala Colony, Amritsar, Punjab 143001",
+    subtitle: "61, Hukam Singh Road, Shivala Colony, Amritsar, Punjab 143001",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/arpqmqtjJspg825g8",
   },
