@@ -20,11 +20,13 @@
 }
 
 .card-img {
-  width: 200px;
+  width: 230px;
   height: auto;
   border-radius: 50%;
-  padding: 10px;
+  padding: 0px;
+  /* padding: 10px; */
   border: 1px solid #d9dbdf;
+  background-color: #fff;
   /* background-color: #6c63ff; */
   /* background: transparent; */
   box-shadow: 5px 5px 5px #d9dbdf;
